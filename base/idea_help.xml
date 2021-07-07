@@ -74,8 +74,8 @@
     <inspection_tool class="CascadeIf" enabled="false" level="INFO" enabled_by_default="false" />
     <inspection_tool class="CastCanBeRemovedNarrowingVariableType" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CatchMayIgnoreException" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="CategoryDuplicateSortOrder" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="CategoryListInspections" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="CategoryDuplicateSortOrder" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CategoryListInspections" enabled="true" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CaughtExceptionImmediatelyRethrown" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="CdiAlternativeInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="CdiDecoratorInspection" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -453,16 +453,16 @@
     <inspection_tool class="HibernateConfigDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="HibernateMappingDatasourceDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="HibernateMappingDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="HtmlNonExistentInternetResource" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="HtmlPresentationalElement" enabled="true" level="INFORMATION" enabled_by_default="true" />
-    <inspection_tool class="HtmlRequiredSummaryAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
-    <inspection_tool class="HtmlRequiredTitleAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlNonExistentInternetResource" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HtmlPresentationalElement" enabled="true" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="HtmlRequiredSummaryAttribute" enabled="true" level="INFORMATION" enabled_by_default="false" />
+    <inspection_tool class="HtmlRequiredTitleAttribute" enabled="true" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="HttpRequestContentLengthIsIgnored" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="HttpRequestPlaceholder" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="I18nForm" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="IdDuplicateInFileInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="IdMatchingContainingFileInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="IdMissingContainingFileInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="IdDuplicateInFileInspection" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="IdMatchingContainingFileInspection" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="IdMissingContainingFileInspection" enabled="true" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="IdempotentLoopBody" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="IfCanBeAssertion" enabled="false" level="INFORMATION" enabled_by_default="false" />
     <inspection_tool class="IfCanBeSwitch" enabled="false" level="WARNING" enabled_by_default="false">
@@ -479,10 +479,10 @@
       <option name="m_reportAllNonLibraryCalls" value="false" />
       <option name="callCheckString" value="java.io.File,.*,java.io.InputStream,read|skip|available|markSupported,java.io.Reader,read|skip|ready|markSupported,java.lang.Boolean,.*,java.lang.Byte,.*,java.lang.Character,.*,java.lang.Double,.*,java.lang.Float,.*,java.lang.Integer,.*,java.lang.Long,.*,java.lang.Math,.*,java.lang.Object,equals|hashCode|toString,java.lang.Short,.*,java.lang.StrictMath,.*,java.lang.String,.*,java.lang.Thread,interrupted,java.math.BigInteger,.*,java.math.BigDecimal,.*,java.net.InetAddress,.*,java.net.URI,.*,java.nio.channels.AsynchronousChannelGroup,.*,java.util.Arrays,.*,java.util.List,of,java.util.Set,of,java.util.Map,of|ofEntries|entry,java.util.Collections,(?!addAll).*,java.util.UUID,.*,java.util.regex.Matcher,pattern|toMatchResult|start|end|group|groupCount|matches|find|lookingAt|quoteReplacement|replaceAll|replaceFirst|regionStart|regionEnd|hasTransparentBounds|hasAnchoringBounds|hitEnd|requireEnd,java.util.regex.Pattern,.*,java.util.concurrent.CountDownLatch,await|getCount,java.util.concurrent.ExecutorService,awaitTermination|isShutdown|isTerminated,java.util.concurrent.ForkJoinPool,awaitQuiescence,java.util.concurrent.Semaphore,tryAcquire|availablePermits|isFair|hasQueuedThreads|getQueueLength|getQueuedThreads,java.util.concurrent.locks.Condition,await|awaitNanos|awaitUntil,java.util.concurrent.locks.Lock,tryLock|newCondition,java.util.stream.BaseStream,.*,java.util.stream.Stream,.*,java.util.stream.DoubleStream,.*,java.util.stream.IntStream,.*,java.util.stream.LongStream,.*" />
     </inspection_tool>
-    <inspection_tool class="IhpInspections" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="ImageCanBeReplacedWithIcon" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="IhpInspections" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="ImageCanBeReplacedWithIcon" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ImageIsScaledInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-    <inspection_tool class="ImageSizeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ImageSizeInspection" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ImplicitArrayToString" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ImplicitNullableNothingType" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="ImplicitSubclassInspection" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -497,7 +497,7 @@
     <inspection_tool class="IncompatibleMaskJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="IncompleteDestructuring" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="IncompleteProperty" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="InconsistentResourceBundle" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="IncorrectOnMessageMethodsInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="IncorrectParentDisposable" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -722,7 +722,7 @@
     <inspection_tool class="LanguageMismatch" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="CHECK_NON_ANNOTATED_REFERENCES" value="true" />
     </inspection_tool>
-    <inspection_tool class="LargeImageWithoutThumbnail" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="LargeImageWithoutThumbnail" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LateinitVarOverridesLateinitVar" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LeakableMapKey" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="LeakingThis" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -918,7 +918,7 @@
     <inspection_tool class="PresentationAnnotation" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="PrimitiveArrayArgumentToVariableArgMethod" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PrivatePropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-    <inspection_tool class="ProductProfileInspections" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ProductProfileInspections" enabled="true" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="PropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="ProtectedInFinal" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PsiElementConcatenation" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1097,7 +1097,7 @@
     <inspection_tool class="ShiftOutOfRangeJS" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SillyAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SillyAssignmentJS" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="SimilarContentInTips" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SimilarContentInTips" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SimpleRedundantLet" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SimplifiableAssertion" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="SimplifiableBooleanExpression" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1332,34 +1332,34 @@
     <inspection_tool class="ThymeleafMessagesResolveInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="ThymeleafVariablesResolveInspection" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="ToArrayCallWithZeroLengthArrayArgument" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="TocElementCustomTitleRedundant" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="TocElementLinkAvailability" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="TocElementsDraftsInspections" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="TocElementsDuplicateInspections" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="TocElementsRedirectionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="TocElementsRedirectionToLiveInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="TocElementsTocTitleRedundant" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TocElementCustomTitleRedundant" enabled="true" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TocElementLinkAvailability" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TocElementsDraftsInspections" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TocElementsDuplicateInspections" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TocElementsRedirectionInspection" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TocElementsRedirectionToLiveInspection" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TocElementsTocTitleRedundant" enabled="true" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TodoComment" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TooBroadScope" enabled="false" level="INFORMATION" enabled_by_default="false">
       <option name="m_allowConstructorAsInitializer" value="false" />
       <option name="m_onlyLookAtBlocks" value="false" />
     </inspection_tool>
-    <inspection_tool class="TopicContentChunkInspections" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentExternalLinkInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentIconInspectionsMissing" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentImageInspectionsGeneral" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentImageInspectionsMissing" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentIncludesInspections" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TopicContentChunkInspections" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentExternalLinkInspection" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentIconInspectionsMissing" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentImageInspectionsGeneral" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentImageInspectionsMissing" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentIncludesInspections" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TopicContentInspectionsDeprecateIncludeId" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="TopicContentLinkInspections" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentMorphInspections" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="TopicContentRelDeprecated" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentShodtcutHardcodedInspections" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentShortcutHardcodedInspections" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentTagListInspections" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentTocInspections" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentTopicUnused" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="TopicContentVarInspections" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TopicContentLinkInspections" enabled="true" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentMorphInspections" enabled="true" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="TopicContentRelDeprecated" enabled="true" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentShodtcutHardcodedInspections" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentShortcutHardcodedInspections" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentTagListInspections" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentTocInspections" enabled="true" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentTopicUnused" enabled="true" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="TopicContentVarInspections" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TrailingComma" enabled="false" level="INFO" enabled_by_default="false" />
     <inspection_tool class="TrailingSpacesInProperty" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TrivialConditionalJS" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1476,7 +1476,7 @@
     </inspection_tool>
     <inspection_tool class="UnusedDataClassCopyResult" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedEquals" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="UnusedImageSpotter" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnusedImageSpotter" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedLabel" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedLambdaExpressionBody" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedMessageFormatParameter" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1526,7 +1526,7 @@
     <inspection_tool class="WrongPackageStatement" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="WrongPropertyKeyValueDelimiter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="WsdlHighlightingInspection" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="XPathBasedInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="XPathBasedInspection" enabled="true" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="XmlWrongFileType" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="XsltDeclarations" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="XsltTemplateInvocation" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -1558,5 +1558,6 @@
       <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
       <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
     </inspection_tool>
+    <inspection_tool class="SimilarContentInTags" enabled="false" level="WARNING" enabled_by_default="true" />
   </profile>
 </component>
